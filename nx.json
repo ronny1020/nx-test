@@ -29,6 +29,13 @@
     "nx-ng-test-e2e": {
       "tags": [],
       "implicitDependencies": ["nx-ng-test"]
+    },
+    "test2": {
+      "tags": []
+    },
+    "test2-e2e": {
+      "tags": [],
+      "implicitDependencies": ["test2"]
     }
   }
 }
